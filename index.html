@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="The Daily Drip — seasonal coffee, cozy vibes, and freshly brewed favorites.">
+<title>The Daily Drip | Coffee, Your Way</title>
+<style>
+:root{--coffee:#4a2c11;--dark:#29180d;--cream:#fcf8f2;--tan:#e8d0b5;--ink:#3d2314}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--cream)}
+.nav{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px clamp(20px,7vw,90px);background:var(--dark);color:white}
+.brand{font-weight:800;font-size:1.2rem}.nav a{color:white;text-decoration:none;font-weight:700}
+.hero{min-height:76vh;display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:48px;padding:70px clamp(20px,7vw,90px);background:linear-gradient(130deg,#fcf8f2 0%,#f1dfca 100%)}
+.eyebrow{display:inline-block;color:var(--coffee);background:#fffaf3;border:1px solid #e0c6a9;border-radius:999px;padding:8px 13px;font-size:.82rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+h1{max-width:650px;margin:22px 0 18px;font-size:clamp(2.8rem,6.4vw,5.7rem);line-height:.98;letter-spacing:-.055em}
+.hero p{max-width:560px;color:#6d5745;font-size:1.12rem;line-height:1.75}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}.btn{display:inline-block;padding:14px 21px;border-radius:8px;text-decoration:none;font-weight:800;transition:transform .2s,background .2s}.btn:hover{transform:translateY(-2px)}
+.btn-primary{color:white;background:var(--coffee)}.btn-primary:hover{background:#6b3c18}.btn-secondary{color:var(--coffee);border:1px solid #b99472}
+.visual{min-height:390px;border-radius:28px;overflow:hidden;position:relative;background:#c5a17d;box-shadow:0 25px 65px #4a2c1126}
+.visual img{width:100%;height:100%;min-height:390px;object-fit:cover;display:block}.image-label{position:absolute;bottom:18px;left:18px;right:18px;padding:17px 20px;border-radius:14px;background:#29180ddf;color:white}
+.image-label strong{display:block;font-size:1.1rem;margin-bottom:4px}.image-label span{color:#f0dfce;font-size:.9rem}
+.features{padding:68px clamp(20px,7vw,90px) 80px;text-align:center}.features h2{font-size:clamp(2rem,4vw,3rem);margin:0 0 12px}
+.features .intro{color:#806c5a;margin:0 auto 34px;max-width:580px;line-height:1.7}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:1100px;margin:auto;text-align:left}
+.card{background:white;border:1px solid #eadbc9;border-radius:16px;padding:25px}.icon{font-size:1.9rem}.card h3{margin:14px 0 8px}.card p{margin:0;line-height:1.65;color:#7b6755}
+.offer{margin:0 clamp(20px,7vw,90px) 70px;padding:42px 25px;border-radius:22px;text-align:center;background:var(--coffee);color:white}
+.offer h2{margin:0 0 12px;font-size:clamp(1.7rem,4vw,2.5rem)}.offer p{color:#f0dfce;line-height:1.7}.offer .btn{margin-top:10px;color:var(--coffee);background:white}
+footer{padding:25px 20px;text-align:center;color:#806c5a;font-size:.9rem}
+@media(max-width:800px){.hero{grid-template-columns:1fr;min-height:auto}.visual,.visual img{min-height:300px}.cards{grid-template-columns:1fr}.nav{padding:18px 20px}}
+</style>
+</head>
+<body>
+<header class="nav"><div class="brand">☕ The Daily Drip</div><a href="#menu">Our Coffee ↓</a></header>
+<main>
+<section class="hero">
+<div><span class="eyebrow">Your daily dose of cozy</span><h1>Good days start with a great cup.</h1>
+<p>Meet your new favorite coffee spot. From autumn-inspired lattes to smooth cold brews, The Daily Drip is here to make every sip feel special.</p>
+<div class="actions"><a class="btn btn-primary" href="./codeing/index%20(1).html">Explore the Coffee Shop →</a><a class="btn btn-secondary" href="#menu">Discover our drinks</a></div></div>
+<div class="visual"><img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=1100" alt="Freshly brewed coffee in a ceramic cup"><div class="image-label"><strong>Freshly brewed. Always comforting.</strong><span>Your little coffee break starts here.</span></div></div>
+</section>
+<section class="features" id="menu"><h2>A little something for every mood.</h2><p class="intro">Whether you need a cozy pick-me-up or a refreshing afternoon sip, there’s a favorite waiting for you.</p>
+<div class="cards">
+<article class="card"><div class="icon">🎃</div><h3>Pumpkin Spice Latte</h3><p>Espresso, steamed milk, and autumn spices in one cozy classic.</p></article>
+<article class="card"><div class="icon">🍯</div><h3>Honey Cinnamon Cold Brew</h3><p>Slow-steeped coffee with a smooth finish and a touch of sweetness.</p></article>
+<article class="card"><div class="icon">🌰</div><h3>Caramel Pecan Latte</h3><p>Rich coffee flavor paired with caramel and roasted pecan notes.</p></article>
+</div></section>
+<section class="offer"><h2>Fall tastes better with a little extra. 🍂</h2><p>Check out our seasonal special and featured drinks on The Daily Drip website.</p><a class="btn" href="./codeing/index%20(1).html">Visit The Daily Drip →</a></section>
+</main>
+<footer>© 2026 The Daily Drip · Made for coffee lovers.</footer>
+</body>
+</html>
